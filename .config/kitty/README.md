@@ -1,4 +1,4 @@
-# .config-kitty-kitty.conf
+# KITTY 
 Personal configuration for Kitty Terminal Emulator
 
 # Kitty Terminal Configuration
