@@ -1,0 +1,1 @@
+{AMD/AMD Radeon RX 5500 XT (radeonsi, navi14, LLVM 17.0.6, DRM 3.57, 6.8.1-arch1-1)/4.6 (Core Profile) Mesa 24.0.3-arch1.2}=SUPPORTED

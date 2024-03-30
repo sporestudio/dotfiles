@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Capa_1"
+   data-name="Capa 1"
+   viewBox="0 0 44 32"
+   version="1.1"
+   sodipodi:docname="qtile-icon1.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="13.068182"
+     inkscape:cx="22"
+     inkscape:cy="16.031304"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">&#10;      .cls-1 {&#10;        fill: #e3dac9;&#10;        stroke-width: 0px;&#10;      }&#10;    </style>
+  </defs>
+  <path
+     class="cls-1"
+     d="m24.8,11.25c.38.05.24.4.96.59s.4-.74.78-.68c.38.05.67.57,1.44.89.77.32,1.31-.27.85-.86-.46-.59-1.71-2.32-4.53-2.65-5.16-.6-5.44,1.79-4.77,2.36.67.57,1.86-.64,2.21-.5.34.14-.23.81.49,1,.72.19,1.17-.42,1.31-.27s-.25.6-.44.82c-.19.22-2.28.67-3.48.18s-1.92-3.39-2.16-3.79c-.06-.11-.14-.16-.22-.18l-.09-.4c.08-.02.15-.03.24-.02.37,0,.83-.03.3-.29s-.73-.15-.73-.15c-.76.23-1,.98-.57.79.19-.08.33-.16.47-.22l.11.4c-.1.1-.17.25-.15.42.03.41.4,4.67,1.74,5.33,1.34.66,2.58.04,2.94.38s-.62,2.75-.93,3.03c-.31.27-3.47.89-4.15.61s.64-3.04.88-3.65c.14-.34-.77-1.31-1.98-.79-1.22.53-1.35,1.83-.87,2.13s1.19-.72,1.42-.52c.16.14-.18.34-.53.53-.26.14-.47.37-.57.65-.4,1.03-.88,3.12.35,3.62,1.46.6,11.42-.25,11.69.06.27.31-.86.65-1.46,2.11-.32.77-1.32,2.26.72,2.9,2.05.63,1.93-.81,1.5-.99-.36-.14-.43-.31-.43-.53,0-.09.02-.17.07-.24,1.14-1.85,2.57-4.94,1.34-5.54-1.25-.61-3.96-.11-4.32-.46.31-1.98,2.65-2.82,2.96-2.6.31.23.01.71-.13,1.55s1.23,1.4,1.64.17-.13-3.36-.96-3.8c-.82-.44-3.54-.64-3.59-.76-.05-.12.28-.69.66-.63Z"
+     id="path1"
+     style="fill:#010b13;fill-opacity:1" />
+</svg>
