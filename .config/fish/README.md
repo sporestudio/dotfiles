@@ -1,4 +1,4 @@
-# .config/fish
+# FISH
 Personal configuration for Fish Interactive Shell.
 
 # Fish Shell Configuration
