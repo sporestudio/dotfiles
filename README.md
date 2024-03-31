@@ -143,9 +143,10 @@
 
 </br>
 
-<a href="https://awesomewm.org/"><img alt="AwesomeWM Logo" height="150" align = "left" src="https://docs.qtile.org/en/stable/_images/qtile-logo.svg"></a>
+<a href="https://awesomewm.org/"><img alt="AwesomeWM Logo" height="80" align = "left" src="https://docs.qtile.org/en/stable/_images/qtile-logo.svg"></a>
 
-In this repository you can find my dotfiles, containing all the relevant configuration to build this setup on your machine.
+   In this repository you can find my dotfiles, containing all the relevant configuration to build this setup on your machine.
+   
 
 Qtile is simple, small, and extensible. It's easy to write your own layouts, widgets, and built-in commands.
 It is written and configured entirely in Python. Leverage the full power and flexibility of the language to make it fit your needs.
@@ -165,3 +166,107 @@ Optimize your workflow by configuring your environment to fit how you work. Feel
 - **Shell:** [Fish](https://fishshell.com/)
 - **Editor:** [Lazy vim](https://www.lazyvim.org/) 
 - **Compositor:** [Picom](https://github.com/yshui/picom)
+
+### Qtile modules:
+
+```
+├── qtile
+│   ├── icons
+│   │   ├── qtile-icon1.svg
+|   |   └── qtile-icon2.svg
+│   ├── settings
+|   |   ├── groups.py
+|   |   ├── keys.py
+|   |   ├── layouts.py  
+|   |   ├── mouse.py
+|   |   ├── path.py
+|   |   ├── screens.py
+|   |   ├── theme.py
+|   |   └── widgets.py
+|   ├── themes
+|   |   ├── dark-grey.json
+|   |   ├── dracula.json
+|   |   └── rosespine.json
+|   ├── wallpapers
+|   |   ├── cleanpaper.png
+|   |   └── simplepaper.png
+|   ├── autostart.sh
+|   ├── config.json
+|   └── config.py
+
+```
+
+## ❄️ SETUP
+
+> This is step-by-step how to install qtile with spore config. Just [R.T.F.M](https://en.wikipedia.org/wiki/RTFM).
+
+
+<details>
+   
+   <summary><b>1. Install Required Dependencies and Qtile Window Manager</b></summary>
+<br>
+
+:warning: ‎ **This setup instructions only provided for Arch Linux (and other Arch-based distributions)**
+
+Assuming your _AUR Helper_ is [paru](https://github.com/Morganamilo/paru).
+
+> First of all you should install [Qtile Window Manager](https://wiki.archlinux.org/title/Qtile).
+
+```sh
+sudo pacman -S qtile
+```
+
+> Install necessary dependencies
+
+```sh
+sudo pacman -S python-pip python-xlib xcb-utils-keysyms
+```
+
+> Install qtile extras
+
+```sh
+paru -S qtile-extras
+```
+
+> Create a directory for the user config
+
+```sh
+mkdir -p ~/.config/qtile
+cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py
+```
+</details>
+
+
+<details>
+   <summary><b>2. Install spore.io</b></summary>
+</br>
+
+Install [_Git_](https://git-scm.com/) in case you don't have it yet.
+
+> Install git
+
+```sh
+sudo pacman -S git
+```
+
+> Clone the repository
+
+```sh
+mkdir ~/.config/qtile
+cd ~/.config/qtile
+git clone https://github.com/sporestudio/dotfiles/tree/main/.config/qtile
+```
+
+> Install a few fonts in order for text and icons to be rendered properly.
+
+Necessary fonts:
+
+- **Helvetica** - [here](https://fontsgeek.com/helvetica-font)
+- **Mononoki Nerd Fonts** - [here](https://www.nerdfonts.com/font-downloads)
+- **Icons Hack Nerd Fonts** - [here](https://www.nerdfonts.com/font-downloads)
+
+
+Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`.
+   
+</details>
+
