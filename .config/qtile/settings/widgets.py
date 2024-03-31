@@ -14,7 +14,7 @@ myTerm = "kitty"
 def init_widgets_list():
     widgets_list= [
         widget.Image(
-            filename = "~/.config/qtile/img/qtile-icon1.svg",
+            filename = "~/.config/qtile/icons//qtile-icon1.svg",
             scale = "false",
             mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm)},
             padding = 2,
