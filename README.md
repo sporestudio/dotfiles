@@ -143,7 +143,7 @@
 
 </br>
 
-<a href="https://awesomewm.org/"><img alt="AwesomeWM Logo" height="80" align = "left" src="https://docs.qtile.org/en/stable/_images/qtile-logo.svg"></a>
+<a href="https://qtile.org/"><img alt="QtileWM Logo" height="60" align = "left" src="https://docs.qtile.org/en/stable/_images/qtile-logo.svg"></a>
 
    In this repository you can find my dotfiles, containing all the relevant configuration to build this setup on your machine.
    
