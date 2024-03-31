@@ -143,14 +143,12 @@
 
 </br>
 
-<a href="https://qtile.org/"><img alt="QtileWM Logo" height="60" align = "left" src="https://docs.qtile.org/en/stable/_images/qtile-logo.svg"></a>
+<a href="https://qtile.org/"><img alt="QtileWM Logo" height="100" align = "left" src="https://docs.qtile.org/en/stable/_images/qtile-logo.svg"></a>
 
-   In this repository you can find my dotfiles, containing all the relevant configuration to build this setup on your machine.
-   
+In this repository you can find my dotfiles, containing all the relevant configuration to build this setup on your machine.
 
 Qtile is simple, small, and extensible. It's easy to write your own layouts, widgets, and built-in commands.
 It is written and configured entirely in Python. Leverage the full power and flexibility of the language to make it fit your needs.
-
 
 Optimize your workflow by configuring your environment to fit how you work. Feel absolutely free to borrow from my creations, but I kindly ask that you remember to give credit where credit is due :)
 
