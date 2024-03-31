@@ -272,11 +272,11 @@ Once you download them and unpack them, place them into `~/.fonts` or `~/.local/
 
 ## ❄️ COLOR SCHEME
 
-<a href="#--------"><img src="" width="500px" alt="colorscheme preview"></a>
+<a href="#--------"><img src="assets/colorscheme.png" width="500px" alt="colorscheme preview"></a>
 
-Designed with utmost care, this colorscheme offers a harmonious combination of shades that work tirelessly to keep your eyes refreshed and alert. You can write code and pursue your work deep into the night without the fatigue that harsh colors might induce.
+Crafted with meticulous attention to detail, the Dracula color scheme presents a symphony of hues meticulously chosen to invigorate your coding sessions while preserving your visual comfort. As you delve into your work, you'll find solace in the soothing tones that accompany you through the depths of the night, sparing your eyes from the strain induced by harsh contrasts.
 
-The elegance of this colorscheme seamlessly integrates with every facet of your environment, ensuring a visually stunning and cohesive experience. It's the perfect complement to your aesthetic configuration, creating a harmonious blend that transcends the ordinary.
+The finesse of the Dracula palette effortlessly melds with every aspect of your workspace, promising a visually arresting and unified journey. It seamlessly integrates with your aesthetic preferences, culminating in a fusion that transcends the mundane. With Dracula, your coding environment becomes an oasis of tranquility and elegance, where productivity thrives amidst a backdrop of timeless sophistication.
 
 
 <!-- License -->
