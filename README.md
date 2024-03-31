@@ -270,3 +270,18 @@ Once you download them and unpack them, place them into `~/.fonts` or `~/.local/
    
 </details>
 
+<!-- License -->
+
+## ❄️ LICENSE
+
+Spore.io is under <a href="https://github.com/sporestudio/dotfiles/blob/main/LICENSE">MIT License.
+</a>
+
+<!-- Author -->
+
+## ❄️ ‎AUTHOR
+
+Created by <a href="https://github.com/sporestudio/">sporestudio</a>.
+
+
+
