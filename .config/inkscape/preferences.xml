@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="491.145111083984"
+         height="215.765808105469" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -311,8 +313,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
-       selcue="1" />
+       style="line-height:1.25;font-family:sans-serif;font-size:26.66666667px"
+       selcue="1"
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -605,9 +608,13 @@
        append_extension="1"
        path="">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
          id="defaultxdpi" />
+      <group
+         id="batchexportarea"
+         value="layer" />
     </group>
     <group
        id="save_as"
@@ -629,7 +636,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/spore/.config/qtile/img/"
+       path="/home/spore/.config/qtile/icons/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -967,13 +974,25 @@
      org.inkscape.output.png.inkscape.png_bitdepth="99"
      org.inkscape.output.png.inkscape.png_compression="6"
      org.inkscape.output.png.inkscape.png_antialias="2"
-     org.inkscape.template.digital.height="1080.0"
+     org.inkscape.template.digital.height="1440.0"
      org.inkscape.template.digital.unit="px"
-     org.inkscape.template.digital.width="1920.0"
-     org.inkscape.input.svg.scale="auto" />
+     org.inkscape.template.digital.width="2560.0"
+     org.inkscape.input.svg.scale="auto"
+     org.inkscape.template.paper.max="42.0"
+     org.inkscape.template.paper.min="30.0"
+     org.inkscape.template.paper.unit="in"
+     org.inkscape.template.paper.orientation="land"
+     org.inkscape.template.video.height="4320.0"
+     org.inkscape.template.video.unit="px"
+     org.inkscape.template.video.width="7680.0"
+     org.inkscape.template.social.height="720.0"
+     org.inkscape.template.social.unit="px"
+     org.inkscape.template.social.width="720.0"
+     org.inkscape.template.other.size="512.0"
+     org.inkscape.template.other.unit="px" />
   <group
      id="desktop"
-     style="fill:#000000;-inkscape-font-specification:'Thunder Bold';font-family:Thunder;font-size:37.33333333px;font-weight:bold">
+     style="fill:#f0ffff;-inkscape-font-specification:'Satoshi Bold';font-family:Satoshi;font-size:74.66666667px;font-weight:bold;text-anchor:middle;text-align:center">
     <group
        width="640"
        height="480"
@@ -1095,7 +1114,7 @@
      id="theme"
      defaultPreferDarkTheme="0"
      defaultIconTheme="Adwaita"
-     defaultGtkTheme="Adwaita"
+     defaultGtkTheme="Adwaita-dark"
      narrowSpinButton="1"
      preferDarkTheme="1"
      darkTheme="1"
