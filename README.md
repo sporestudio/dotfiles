@@ -217,7 +217,7 @@ sudo pacman -S qtile
 > Install necessary dependencies
 
 ```sh
-sudo pacman -S python-pip python-xlib xcb-utils-keysyms
+sudo pacman -S python-pip python-xlib xcb-util-keysyms
 ```
 
 > Install qtile extras
