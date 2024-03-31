@@ -194,7 +194,7 @@ Optimize your workflow by configuring your environment to fit how you work. Feel
 
 ```
 
-## ❄️ SETUP
+### ❄️ SETUP
 
 > This is step-by-step how to install qtile with spore config. Just [R.T.F.M](https://en.wikipedia.org/wiki/RTFM).
 
@@ -268,7 +268,7 @@ Once you download them and unpack them, place them into `~/.fonts` or `~/.local/
    
 </details>
 
-## ❄️ COLOR SCHEME
+### ❄️ COLOR SCHEME
 
 <a href="#--------"><img src=".assets/colorscheme.png" width="500px" alt="colorscheme preview"></a>
 
