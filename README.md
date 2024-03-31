@@ -270,6 +270,15 @@ Once you download them and unpack them, place them into `~/.fonts` or `~/.local/
    
 </details>
 
+## ❄️ COLOR SCHEME
+
+<a href="#--------"><img src="" width="500px" alt="colorscheme preview"></a>
+
+Designed with utmost care, this colorscheme offers a harmonious combination of shades that work tirelessly to keep your eyes refreshed and alert. You can write code and pursue your work deep into the night without the fatigue that harsh colors might induce.
+
+The elegance of this colorscheme seamlessly integrates with every facet of your environment, ensuring a visually stunning and cohesive experience. It's the perfect complement to your aesthetic configuration, creating a harmonious blend that transcends the ordinary.
+
+
 <!-- License -->
 
 ## ❄️ LICENSE
