@@ -270,7 +270,7 @@ Once you download them and unpack them, place them into `~/.fonts` or `~/.local/
 
 ## ❄️ COLOR SCHEME
 
-<a href="#--------"><img src="assets/colorscheme.png" width="500px" alt="colorscheme preview"></a>
+<a href="#--------"><img src=".assets/colorscheme.png" width="500px" alt="colorscheme preview"></a>
 
 Crafted with meticulous attention to detail, the Dracula color scheme presents a symphony of hues meticulously chosen to invigorate your coding sessions while preserving your visual comfort. As you delve into your work, you'll find solace in the soothing tones that accompany you through the depths of the night, sparing your eyes from the strain induced by harsh contrasts.
 
