@@ -35,7 +35,7 @@ function fish_prompt
         set initial_indicator "$red✖ $last_status"
         set status_indicator "$white❯"
     end
-    set -l cwd $cyan(basename (prompt_pwd))
+    set -l cwd $normal(basename (prompt_pwd))
 
     if [ (_git_branch_name) ]
 
