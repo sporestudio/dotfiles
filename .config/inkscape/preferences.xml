@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="491.145111083984"
-         height="215.765808105469" />
+         width="607.098083496094"
+         height="88.97412109375" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -154,7 +154,9 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="1"
+         rx="138.942340493701"
+         ry="38.4852578160056" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -313,7 +315,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="line-height:1.25;font-family:sans-serif;font-size:26.66666667px"
+       style="line-height:1.25;font-family:larken;font-size:18.66666667px;-inkscape-font-specification:larken"
        selcue="1"
        align_mode="1" />
     <eventcontext
@@ -331,8 +333,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="-228.77996"
+       y="683.05799"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -518,7 +520,7 @@
   </group>
   <group
      id="colorselector"
-     page="1"
+     page="RGB"
      switcher="1">
     <group
        id="RGB"
@@ -597,7 +599,8 @@
        state="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="7" />
     <group
        id="gradienteditor" />
     <group
@@ -618,10 +621,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/spore/asir/lm/tr3/web-poster"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -632,16 +635,17 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/spore/.config/qtile/img" />
+       path="/home/spore/asir/lm/tr3/web-poster/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/spore/.config/qtile/icons/"
+       path="/home/spore/downs/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
-       import_mode_svg="include" />
+       import_mode_svg="include"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -974,9 +978,9 @@
      org.inkscape.output.png.inkscape.png_bitdepth="99"
      org.inkscape.output.png.inkscape.png_compression="6"
      org.inkscape.output.png.inkscape.png_antialias="2"
-     org.inkscape.template.digital.height="1440.0"
+     org.inkscape.template.digital.height="768.0"
      org.inkscape.template.digital.unit="px"
-     org.inkscape.template.digital.width="2560.0"
+     org.inkscape.template.digital.width="1024.0"
      org.inkscape.input.svg.scale="auto"
      org.inkscape.template.paper.max="42.0"
      org.inkscape.template.paper.min="30.0"
@@ -989,10 +993,17 @@
      org.inkscape.template.social.unit="px"
      org.inkscape.template.social.width="720.0"
      org.inkscape.template.other.size="512.0"
-     org.inkscape.template.other.unit="px" />
+     org.inkscape.template.other.unit="px"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.effect.filter.Blend.source="SourceGraphic"
+     org.inkscape.effect.filter.Blend.mode="multiply"
+     org.inkscape.effect.filter.Blend.__live_effect__="0"
+     org.inkscape.effect.filter.Opacity.opacity="0.115188085340214"
+     org.inkscape.effect.filter.Opacity.__live_effect__="0"
+     org.inkscape.output.scour_inkscape.indent="space" />
   <group
      id="desktop"
-     style="fill:#f0ffff;-inkscape-font-specification:'Satoshi Bold';font-family:Satoshi;font-size:74.66666667px;font-weight:bold;text-anchor:middle;text-align:center">
+     style="fill:#1a1a1a;-inkscape-font-specification:'Poppins Light';font-family:Poppins;font-size:14.66666667px;text-anchor:middle;text-align:center;font-weight:300;opacity:0.55279878">
     <group
        width="640"
        height="480"

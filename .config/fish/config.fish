@@ -2,6 +2,12 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+
+# Autorun after login #
+if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
+    exec startx
+end
+
 setxkbmap es
 
 set fish_greeting
@@ -129,6 +135,10 @@ end
 
 # Dotfiles git alias #
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+
+# Tor net terminal checker
+alias torcheck='torsocks curl -s https://check.torproject.org/ | grep -q Congratulations && echo "Your terminal is using Tor." || echo "Tor is not working."'
 
 
 # Cd
