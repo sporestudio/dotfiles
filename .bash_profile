@@ -15,7 +15,7 @@ export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 
 # Programs #
 export TERM="kitty"
-export NAVIGATOR="chromium"
+export NAVIGATOR="firefox"
 export EDITOR="nvim"
 
 # Clear temp directory #
