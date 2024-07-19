@@ -8,9 +8,38 @@ if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
     exec startx
 end
 
-setxkbmap es
 
+# Remove initial message #
 set fish_greeting
+
+# default umask #
+umask 027
+
+
+### Dylan ###
+
+# Export environment variables
+set -x DYLAN ~/dylan
+set -x OPEN_DYLAN_HOME $DYLAN/opendylan-2024.1
+
+# PATH CONFIGURATION ##
+
+# home path #
+set -x PATH $HOME/.local/bin $HOME/.cargo/bin $PATH
+
+# dylan path #
+set -x PATH $PATH ~/Bin $OPEN_DYLAN_HOME/bin
+
+# gems path #
+set -gx GEM_HOME ~/.gem/ruby/3.0.0
+set -gx GEM_PATH $GEM_HOME:/usr/lib/ruby/gems/3.0.0
+set -gx PATH $GEM_HOME/bin $PATH
+
+
+
+# Git dotfiles path #
+alias config '/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 
 
 ## THEMING ##
@@ -97,44 +126,13 @@ end
 
 
 
-# Functions needed for !! and !$
-function __history_previous_command
-    switch (commandline -t)
-        case "!"
-            commandline -t $history[1]
-            commandline -f repaint
-        case "*"
-            commandline -i !
-    end
-end
-
-function __history_previous_command_arguments
-    switch (commandline -t)
-        case "!"
-            commandline -t ""
-            commandline -f history-token-search-backward
-        case "*"
-            commandline -i '$'
-    end
-end
-
-# The bindings for !! and !$
-if [ "$fish_key_bindings" = fish_vi_key_bindings ]
-    bind -Minsert ! __history_previous_command
-    bind -Minsert '$' __history_previous_command_arguments
-else
-    bind ! __history_previous_command
-    bind '$' __history_previous_command_arguments
-end
-
-
 
 #############
 ## Aliases ##
 #############
 
 # Dotfiles git alias #
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+#alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 
 # Tor net terminal checker
@@ -175,7 +173,7 @@ alias ls="eza -F --icons --group-directories-first"
 alias la="eza -aF --icons --group-directories-first"
 
 # Long listing
-alias ll="eza -alhF --icons --group-directories-first"
+alias ll="eza -alhF --icons --group-directories-first --group --header"
 
 # Rescursive listing
 alias lr="eza -RF --icons --group-directories-first"
@@ -215,3 +213,10 @@ alias myip="curl -L ipconfig.me"
 
 # Simple clear
 alias cl="clear"
+
+# Show images
+alias img="kitten icat"
+
+# Added by `rbenv init` on Tue Jun 25 23:23:31 CEST 2024
+status --is-interactive; and ~/.rbenv/bin/rbenv init - fish | source
+status --is-interactive; and . (rbenv init -|psub)
