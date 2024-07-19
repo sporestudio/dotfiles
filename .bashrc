@@ -49,7 +49,9 @@ alias playmp3='vlc *.mp3'
 alias grep='grep --color=auto'
 
 # Prompt config #
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
 
 # dotfiles git alias #
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+
